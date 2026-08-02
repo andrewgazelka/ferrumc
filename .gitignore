@@ -3,7 +3,8 @@
 .vscode
 /crates/lib/dummy_lib/Cargo.lock
 
-Cargo.lock
+# Cargo.lock is tracked: the nix build vendors crates from the lock and
+# never resolves dependencies itself.
 config.toml
 .temp
 
